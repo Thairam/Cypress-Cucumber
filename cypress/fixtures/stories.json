@@ -1,0 +1,20 @@
+{
+    "hits": [
+        {
+            "title": "Teste automatizado com Cypress",
+            "url": "https://exemplo/1",
+            "author": "dwwoelfel",
+            "points": 1000,
+            "num_comments": 498,
+            "objectID": "1"
+        },
+        {
+            "title": "Cypress + BDD com Cucumber",
+            "url": "https://exemplo/2",
+            "author": "pomber",
+            "points": 0,
+            "num_comments": 1500,
+            "objectID": "2"
+        }
+    ]
+}

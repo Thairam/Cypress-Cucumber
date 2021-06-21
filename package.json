@@ -1,0 +1,22 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "keywords": [],
+  "author": "Thairam Michel Santos Ataíde",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "faker": "^5.5.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}
